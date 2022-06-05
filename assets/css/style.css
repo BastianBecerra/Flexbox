@@ -42,6 +42,7 @@ button{
     align-items: center;
     flex-wrap: wrap;
     background-color:#E8EBE4;
+    flex-direction: column;
 }
 .container{
     display: flex;
@@ -49,7 +50,20 @@ button{
 .network{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.network h1{
+    font-size: 70px;
+    font-family: Roboto Bold;
 }
 .caja-boton{
     padding: 15%;
+}
+.main-chat img{
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 217px;
+    padding-right: 264px;
+    padding-top: 82px;
 }
