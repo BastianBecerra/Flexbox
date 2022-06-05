@@ -55,10 +55,10 @@ button{
 }
 .network h1{
     font-size: 70px;
-    font-family:Roboto;
+    font-family:500;
 }
 .network p{
-    padding-left: 41px;
+    font-family: 300;
     font-size: 16px;
 }
 .caja-boton{
