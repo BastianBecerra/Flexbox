@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container-chat{
     flex-wrap: wrap;
@@ -10,7 +11,7 @@ body{
     overflow-y: auto;
 }
 .chats-2{
-    border: solid 1px gray;
+    border: solid 1px #E8EBE4;
     width: 28rem;
 }
 .chats-2 img{
@@ -22,10 +23,10 @@ button{
     padding-bottom: 1px;
     background-color: #A491D2;
     color: #fff;
-    border-top: solid 1px gray;
+    border-top: solid 1px #E8EBE4;
 }
 .perfil{
-    border: solid 1px gray;
+    border: solid 1px #E8EBE4;
     width: 28rem;
 }
 .perfil img{
@@ -54,7 +55,11 @@ button{
 }
 .network h1{
     font-size: 70px;
-    font-family: Roboto Bold;
+    font-family:Roboto;
+}
+.network p{
+    padding-left: 41px;
+    font-size: 16px;
 }
 .caja-boton{
     padding: 15%;
@@ -66,4 +71,17 @@ button{
     padding-left: 217px;
     padding-right: 264px;
     padding-top: 82px;
+}
+.chats-2{
+    padding-left: 6px;
+}
+.chat-minibox{
+    display: flex;
+    justify-content: start;
+}
+.chat-minibox h3{
+    padding-left: 26px;
+}
+.chat-minibox p{
+    padding-left: 54px;
 }
