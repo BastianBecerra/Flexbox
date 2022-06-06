@@ -40,10 +40,7 @@ button{
     width: 85%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     background-color:#E8EBE4;
-    flex-direction: column;
 }
 .container{
     display: flex;
@@ -51,26 +48,25 @@ button{
 .network{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .network h1{
     font-size: 70px;
-    font-family:500;
+    font-weight:500;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .network p{
-    font-family: 300;
+    font-weight: 300;
     font-size: 16px;
 }
 .caja-boton{
     padding: 15%;
 }
 .main-chat img{
-    width: 24%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 217px;
-    padding-right: 264px;
-    padding-top: 82px;
+    width: 85%;
+    max-width: 450px;
 }
 .chats-2{
     padding-left: 6px;
